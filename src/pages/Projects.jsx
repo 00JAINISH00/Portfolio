@@ -35,10 +35,10 @@ const Projects = () => {
                 ))}
               </div>
               <div className="flex justify-between text-sm">
-                <a href={project.github} target="_blank" className="text-blue-600 hover:underline">
+                {/* <a href={project.github} target="_blank" className="text-blue-600 hover:underline">
                   GitHub
-                </a>
-                
+                </a> */}
+          
               </div>
             </div>
           ))}

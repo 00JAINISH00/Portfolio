@@ -10,7 +10,7 @@ const Navbar = () => {
           <li><Link to="home" smooth={true} duration={500} className="cursor-pointer hover:text-cyan-400">Home</Link></li>
           <li><Link to="about" smooth={true} duration={500} className="cursor-pointer hover:text-cyan-400">About</Link></li>
           <li><Link to="projects" smooth={true} duration={500} className="cursor-pointer hover:text-cyan-400">Projects</Link></li>
-          <li><Link to="contact" smooth={true} duration={500} className="cursor-pointer hover:text-cyan-400">Contact</Link></li>
+          {/* <li><Link to="contact" smooth={true} duration={500} className="cursor-pointer hover:text-cyan-400">Contact</Link></li> */}
         </ul>
       </div>
     </nav>
